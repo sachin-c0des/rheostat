@@ -8,6 +8,7 @@ modifiers:
 postMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
+    - "test/algorithms/linear-tests.js"
   strategy:
     threshold: <5|100s>
     type: <commit|time>
