@@ -84,17 +84,7 @@ value 5 and snap to 50%.
   snapPoints: PropTypes.arrayOf(PropTypes.number)
 ```
 
-The values, by default 0 and 100.
 
-```js
-  values: PropTypes.arrayOf(PropTypes.number)
-```
-
-You can disable the slider to prevent the user from moving it.
-
-```js
-  disabled: PropTypes.bool
-```
 
 ## Usage
 
