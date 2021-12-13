@@ -1,7 +1,7 @@
 ---
 framework: jest
-blacklist:
-  - "test/algorithms/geometric-test.js##new geometric algorithm##internal new geometric algorithm"
+blocklist:
+  - "test/algorithms/linear-test.js##geometric algorithm##Version - 2 : of Inverse Function check"
 modifiers:
   - type: jest
     cli: "--forbid-pending --no-bail"
