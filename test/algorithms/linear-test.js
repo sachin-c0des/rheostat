@@ -2,7 +2,7 @@ import { assert } from 'chai';
 import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
 
-describe('geometric algorithm', () => {
+describe('linear algorithm', () => {
   
   it('Version - 2 : of Inverse Function check', () => {
     const min = 10;
