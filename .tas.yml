@@ -8,15 +8,12 @@ modifiers:
 postMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
-    - "test/algorithms/linear-test.js"
-    - "test/slider-test.jsx"
   strategy:
     threshold: <5|100s>
     type: <commit|time>
 preMerge:
   pattern:
     - "test/algorithms/geometric-test.js"
-    - "test/algorithms/linear-test.js"
 stability:
   consecutive_runs: 5
 preRun:
