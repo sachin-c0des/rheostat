@@ -906,7 +906,7 @@ export default withDirection(withStyles(({ rheostat: { color, unit, responsive }
     top: -2,
     left: -2,
     bottom: 4,
-    width: '100%',
+    width: '10%',
     position: 'absolute',
   },
 
