@@ -1,0 +1,20 @@
+---
+framework: jest
+blocklist:
+  - "test/algorithms/geometric-test.js##geometric algorithm##should have inverse functions for getValue and getPosition"
+postMerge:
+  pattern:
+    - "test/algorithms/geometric-test.js"
+preMerge:
+  pattern:
+    - "test/algorithms/geometric-test.js"
+stability:
+  consecutive_runs: 5
+preRun:
+  command:
+    - npm i
+    - npm run react
+postRun:
+  command:
+    - node --version
+version: 1.0
