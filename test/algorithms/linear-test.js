@@ -1,6 +1,5 @@
 import { assert } from 'chai';
 import casual from 'casual';
-import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
 
 describe('linear algorithm', () => {
