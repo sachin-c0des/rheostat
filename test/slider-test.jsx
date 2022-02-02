@@ -2,7 +2,6 @@ import { shallow, mount } from 'enzyme';
 import React from 'react';
 import createReactClass from 'create-react-class';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
-
 import sinon from 'sinon';
 import { assert } from 'chai';
 import has from 'has';
