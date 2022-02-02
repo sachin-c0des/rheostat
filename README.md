@@ -1,11 +1,8 @@
 # Rheostat
 Testing post merge - 14
 ## Initialize
-
 roject relies on `react-with-styles`. If you want to continue using CSS stylesheets and classes, there is a little bit of extra set-up required to get things going. As such, you need to use to use `rheostat/initialize` to set up class names on your components.
-
-    import 'rheostat/initialize';
-
+import 'rheostat/initialize';
 For example, the above import should go at the top of your application as you won't be able to import `rheostat` with it.
 
 ## Props
