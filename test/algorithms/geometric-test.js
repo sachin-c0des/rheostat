@@ -20,7 +20,7 @@ describe('geometric algorithm', () => {
   it('should handle the minimum end of the range correctly', () => {
     const min = casual.integer(0, 99);
     const max = casual.integer(100, 1000);
-    const value = geometric.getValue(9000, min, max);
+    const value = geometric.getValue(0, min, max);
     assert.equal(value, min);
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(Math.round(positionFromValue), 0);
