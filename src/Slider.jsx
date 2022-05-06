@@ -3,13 +3,11 @@ import withDirection, { withDirectionPropTypes, DIRECTIONS } from 'react-with-di
 import PropTypes from 'prop-types';
 import { forbidExtraProps } from 'airbnb-prop-types';
 import React from 'react';
-
 import LinearScale from './algorithms/linear';
 import DefaultHandle from './DefaultHandle';
 import DefaultProgressBar from './DefaultProgressBar';
 import DefaultBackground from './DefaultBackground';
 import OrientationPropType from './propTypes/OrientationPropType';
-
 import {
   HORIZONTAL,
   VERTICAL,
@@ -19,10 +17,8 @@ import {
 } from './constants/SliderConstants';
 
 const has = Object.prototype.hasOwnProperty;
-
 const PropTypeArrOfNumber = PropTypes.arrayOf(PropTypes.number);
 const PropTypeReactComponent = PropTypes.oneOfType([PropTypes.func, PropTypes.string]);
-
 function getHandleFor(ev) {
   return Number(ev.currentTarget.getAttribute('data-handle-key'));
 }
@@ -46,7 +42,9 @@ const propTypes = forbidExtraProps({
   }),
 
   background: PropTypeReactComponent,
-
+  
+  // Added comments
+  
   // any children you pass in
   children: PropTypes.node,
 
