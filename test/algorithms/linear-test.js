@@ -29,4 +29,13 @@ describe('linear algorithm', () => {
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(positionFromValue, x);
   });
+  it('Another new test - Range check', () => {
+    const min = 0;
+    const max = 1024;
+    const x = 25;
+    const value = geometric.getValue(x, min, max);
+    assert.equal(value, 64);
+    const positionFromValue = geometric.getPosition(value, min, max);
+    assert.equal(positionFromValue, x);
+  });
 });
