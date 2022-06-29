@@ -45,7 +45,7 @@ describe('geometric algorithm', () => {
   });
   it('Added a new test - Dummy Test', () => {
     const min = 0;
-    const max = 1024;
+    const max = 1025;
     const x = 25;
     const value = geometric.getValue(x, min, max);
     assert.equal(value, 64);
